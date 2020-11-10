@@ -5,7 +5,7 @@
 // each box is represented by an array
 // you might get an empty box like: []
 // or a box might have things in it like: ['vial', 'sandwich', 'dog food']
-// or a box might have boxes in it like [['vial', ['dog food', 'dog food'], 'taco'], 'vial', ['vial', vial, ['vial']]]
+// or a box might have boxes in it like [['vial', ['dog food', 'dog food'], 'taco'], 'vial', ['vial', 'vial', ['vial']]]
 
 // Regardless of where they are burried in our luggage, you must count up all of the vials
 // in all of the boxes.
@@ -16,7 +16,7 @@
 // ['vial', 'sandwich', 'dog food'] should return 1
 
 // a box might have things in it like this:
-// [['vial', ['dog food', 'dog food'], 'taco'], 'vial', ['vial', vial, ['vial']]] should return 5
+// [['vial', ['dog food', 'dog food'], 'taco'], 'vial', ['vial', 'vial', ['vial']]] should return 5
 
 // start small by handling the first two cases (only worry about an array of strings)
 // then move on to boxes in boxes in boxes. Boxes in boxes will be a big stretch.
@@ -25,7 +25,6 @@
 
 module.exports = function (box) {
     // YOUR CODE HERE
-
 }
 
 // Don't forget to write tests!
