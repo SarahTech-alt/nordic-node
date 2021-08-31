@@ -9,8 +9,7 @@
 // if the input number was 2, the result should be 3
 
 module.exports = function (numberOfBoxes) {
-    // YOUR CODE HERE
-
+    return (numberOfBoxes/2) + 2;
 }
 
 // now run `node test.js` in the terminal, to see what happens
