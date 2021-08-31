@@ -17,6 +17,10 @@ if (nodeObjects.mushers == 20) {
     XXXXXXXXXXX FAILED nodeObjects XXXXXXXXXXX
     `);
 }
+// console.log(nodeFunction(3));
+// console.log(nodeFunction(5));
+// console.log(nodeFunction(2));
+// console.log(nodeFunction(0));
 
 if (nodeFunction(16) == 10) {
     console.log('Passed nodeFunction test 1!');
